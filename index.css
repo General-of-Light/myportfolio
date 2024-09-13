@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url("https://images6.alphacoders.com/130/1300662.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.brand-font{
+  font-family: "Playwrite CU", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.brand-two{
+    font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;   
+}
+
+.brand-three{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#top{
+    background-color: rgba(168, 168, 255, 0.43);
+}
+
+#profpic{
+    padding: 80px;
+}
+
+
+#PDesc{
+    margin-left: 40px;
+    font-family: 'Roboto';
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    font-family: 'Roboto';
+}
+
+
+#left{
+    border: 2px solid black;
+    background-color: rgba(255, 148, 237, 0.599);
+    padding: 40px;
+    width: 48%;
+    align-items: justify;
+    
+}
+
+.carousel-item{
+    height: 300px;
+    object-fit: cover;
+  }
+  
+#edubg ul li{
+    margin-left: 30px;
+}
+
+#skills ul li{
+    margin-left: 30px;
+}
+
+#projects ul li{
+    margin-left: 30px;
+}
+
+#AwardsAchievements ul li{
+    margin-left: 30px;
+}
+
+#right{
+    border: 2px solid black;
+    background-color: rgba(255, 221, 251, 0.456);
+    padding: 40px;
+    width: 48%;
+}
+
+#Hobbies ul li{
+    margin-left: 30px;
+}
+
+#extraacts ul li{
+    margin-left: 30px;
+}
+
+#otheracts ul li{
+    margin-left: 30px;
+}
+
+#contacts{
+    background-color: rgba(69, 181, 255, 0.616)
+}
+
+.container2 {
+    width: 100%;
+    background-color: rgba(251, 131, 255, 0.603);
+    font-family: 'Roboto';
+}
+
+.contacts-form{
+    max-width: 500px;
+    width: 100%;
+}
+
+.container3{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.575);
+    font-family: 'Roboto';
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#social div {
+    display: flex;
+    align-items: center;
+}
+
+#social img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.navbar{
+    background-color: rgba(235, 83, 255, 0.541);
+}
+
+@media (max-width: 800px) {
+    #profpic {
+        padding: 20px;
+    }
+    
+    #bottom {
+        flex-direction: column;
+    }
+    
+    #left, #right {
+        width: 100%;
+        min-width: auto;
+    }
+}
